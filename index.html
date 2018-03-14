@@ -9,12 +9,43 @@
 	<title> Naman's Portfolio </title>
 </head>
 <body>
+	<!-- navbar is usually placed before the <div class = "container" -->
 	<div class = "container">
-		<h1 class = "display-4"> Naman Pujari's <small> Portfolio </small> </h1>
-		<blockquote class = "blockquote">
-			<p> I've always wanted to make <mark>my own website.</mark> Maybe someday I will... </p>
-			<footer class = "blockquote-footer"> <cite title = "Source Title"> Naman Pujari </cite>, March 13 2018 </footer>
-		</blockquote>
+		<nav class = "navbar navbar-expand-sm navbar-light bg-light">
+			<!-- Logo -->
+			<a class = "navbar-brand" href = "https://www.github.com/namanpujari"> 
+				<img src = "https://avatars3.githubusercontent.com/u/22843178?s=460&v=4" class = "rounded" alt = "github_profile_picture" width = "30" height = "30">
+			</a>
+			<!-- Links. These are the non-logo items inside the navbar -->
+			<!-- This includes normal links, and also dropdown items -->
+			<ul class = "navbar-nav">
+				<li class = "nav-item"> <a class = "nav-link" href = "#"> My Projects </a> </li>
+				<li class = "nav-item"> <a class = "nav-link" href = "#"> My Thoughts </a> </li>
+				<li class = "nav-item"> <a class = "nav-link" href = "#"> My Story </a> </li>
+				<!-- There is a different li class for the dropdown menu -->
+				<li class = "nav-item dropdown">
+    				<a class="nav-link dropdown-toggle" href="https://www.facebook.com" id="navbardrop" data-toggle="dropdown"> Contact me </a>
+    				<div class = "dropdown-menu">
+    					<span class = "navbar-text"> 
+    						You may call me at (646)-515-9396.
+    						Or, you may send me an email at namanpujari913@gmail.com
+    					</span>
+    					<!-- This would be used to insert dropdown links, if we were to incorporate this in the project -->
+    					<!-- <a class = "dropdown-item" href = "https://www.google.com"> Google something! </a>
+    					<a class = "dropdown-item" href = "https://www.wikipedia.org"> I want to learn about something! </a> -->
+    				</div>
+    			</li>
+			</ul>
+		</nav>
+		<div class = "jumbotron">
+			<h1 class = "display-4"> <small> Naman Pujari's </small> Portfolio </h1>
+			<blockquote class = "blockquote">
+				<p> I've always wanted to make <mark>my own website.</mark> Maybe someday I will... </p>
+				<footer class = "blockquote-footer"> <cite title = "Source Title"> Naman Pujari </cite>, March 13 2018 </footer>
+			</blockquote>
+		</div>
+		<h3 class = "text-secondary"> About me </h3>
+		<p class = "lead"> Nice to meet you! I'm Naman, and over the last two years I've developed a very strong interest in the field of computer science. This personal website is built for the sole purpose of showcasing the things that I have created out of the very same interests. I urge you to look through the website and get to know me just a little bit better! </p>
 	</div>
 </body>
 </html>
