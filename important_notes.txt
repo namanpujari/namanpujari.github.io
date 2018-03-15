@@ -1,0 +1,4 @@
+What I have learned today (3/15/2018)
+1. Sass is a compiler for .sass and .scss files. Essentially, these compilable languages that output .css files. You can structure .scss files like any ordinary compiled language, and once sass does its job, a nicely structured .css file is returned to the programmer. 
+2. Bootstrap uses sass on its .scss files. If we used node npm to install the source files of bootstrap, then we can see that the repositor contains a lot of .scss files. 
+3. Bootstrap allows for the use of 12 columns in its grid system. Essentially, a grid system is the graphic designer's way of organizing the details of a webpage in an appealing manner. 
