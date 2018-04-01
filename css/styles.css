@@ -1,41 +1,76 @@
 body {
   background-color: black; }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4 {
   font-family: 'Audiowide', cursive;
-  color: white; }
-
-#navbar_my_name {
-  font-family: 'Audiowide', cursive;
-  align-items: center;
   color: white;
-  padding-right: 10px;
-  padding-left: 10px;
+  display: inline-block;
+  color: white;
+  border-bottom-width: 3px;
+  /*  text-shadow: 0px 1px 3px silver, 
+  0 2px 5px #2D90A9;*/
+  border-color: orange;
+  border-bottom-style: inset;
+  margin-top: 2px; }
+
+.introduction {
+  background-image: url(../img/banner_image.jpg);
+  background-repeat: repeat !important;
+  text-align: center; }
+
+#header_image_section {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+#header_name {
+  color: white;
+  padding: 10px;
   border-width: 10px;
-  border-color: white; }
+  border-color: red; }
 
-.navbar-image {
-  padding-top: 20px;
-  text-align: center;
-  width: 100%; }
-
-#navbar_my_picture {
+#header_image {
   height: 150px;
   width: 150px;
   border-radius: 50%;
   opacity: 0.9; }
 
-.introduction {
-  background-image: url(../img/banner_image.jpg);
-  background-repeat: repeat !important; }
-
-.navbar-header {
-  padding-top: 10px;
-  text-align: center;
-  width: 100%; }
-
 #divider, #important {
   color: orange; }
+
+#brief {
+  color: white !important;
+  font-family: 'Audiowide', cursive;
+  font-size: 20px; }
+
+#navbar-flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#navBar .navbar-nav .nav-item .nav-link {
+  font-weight: 600;
+  font-family: 'Audiowide', cursive;
+  color: white;
+  text-transform: uppercase; }
+
+#navBar {
+  text-align: center;
+  top: 0;
+  left: 0;
+  display: table; }
+
+#navBar > li {
+  width: auto;
+  display: table-cell; }
+
+#nav-fill-container {
+  background-color: #d67d2f; }
+
+#main-body {
+  background-color: #4f5051 !important; }
+
+.bg-primary {
+  background-color: #d67d2f !important; }
 
 .WORKINPROGRESS {
   padding-top: 20px;
@@ -43,3 +78,7 @@ h1, h2, h3, h4, h5 {
   font-size: 100px;
   text-align: center;
   color: white; }
+
+#wip {
+  color: white;
+  padding-bottom: 20px; }

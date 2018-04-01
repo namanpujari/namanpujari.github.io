@@ -13,17 +13,48 @@
   <body>
     <!-- This is the introduction part of the code. It contains my image, and my name in a cool techy font -->
     <div class = "introduction">
-  		<div class = "navbar-image">
-  			<a href = "https://www.github.com/namanpujari"> <img src = "\img\my_portrait_image.jpg" id = "navbar_my_picture"> </a>
+  		<div id = "header_image_section">
+  			<a href = "https://www.github.com/namanpujari"> <img src = "\img\my_portrait_image.jpg" id = "header_image"> </a>
   		</div>
-  		<div class = "navbar-header">
-				<a class="navbar-brand" href="#" id = "navbar_my_name"> <h1>Naman <span id = "divider"> | </span> Pujari </h1> </a> 
+  		<div id = "header_name">
+        <h1> Naman <span id = "divider"> | </span> Pujari </h1>
 			</div>
+      <p id = "brief" align = "center"> <span id = "divider"> &#9632 </span> Programmer <span id = "divider"> &#9632 </span> Student <span id = "divider"> &#9632 </span> Human <span id = "divider"> &#9632 </span> </p>
     </div>
     <!-- The </div> marks the end of the introduction part. I have used a gradient background for this, to make it look cool. -->
+    <div class = "container" id = "nav-fill-container">
+      <div id = "navbar-flex-container"> 
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary" id = "navBar">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"> My Story <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> My Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> My Thoughts </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href='#'> My Contact Info </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class = container id = main-body> 
+      <div class = "WORKINPROGRESS"> W. I.  <span id = "important"> P. </span> </div>
+      <h5 align = "center" id = "wip"> <em> Work in </em> <span id = "important"> <em> Progress... </em></span> </h5>
+    </div>
+      <!-- Here we established a flexbox container, which will contain children (in this case the children are bootstrap cards). I will make them wrapped, so as to make the website more professional -->
+
+
     
-    <!-- IMPORTANT! This is just for the time being! -->
+    <!-- IMPORTANT! This is just for the time being! 
     <div class = "WORKINPROGRESS"> W. I.  <span id = "important"> P. </span> </div>
-    <h5 align = "center"> Work in <span id = "important"> Progress... </span> </h5>
+    <h5 align = "center"> Work in <span id = "important"> Progress... </span> </h5> -->
+
+
+
   </body>
  </html>
