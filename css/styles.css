@@ -1,14 +1,12 @@
 body {
   background-color: black; }
 
-h1, h2, h3, h4 {
+h1 {
   font-family: 'Audiowide', cursive;
   color: white;
   display: inline-block;
   color: white;
   border-bottom-width: 3px;
-  /*  text-shadow: 0px 1px 3px silver, 
-  0 2px 5px #2D90A9;*/
   border-color: orange;
   border-bottom-style: inset;
   margin-top: 2px; }
@@ -18,7 +16,7 @@ h1, h2, h3, h4 {
   background-repeat: repeat !important;
   text-align: center; }
 
-#header_image_section {
+#header-image-section {
   padding-top: 10px;
   padding-bottom: 10px; }
 
@@ -53,13 +51,19 @@ h1, h2, h3, h4 {
   color: white;
   text-transform: uppercase; }
 
-#navBar {
+#footer .navbar-nav .nav-item .nav-link {
+  font-weight: 600;
+  font-family: 'Audiowide', cursive;
+  color: white;
+  text-transform: uppercase; }
+
+#navBar, #footer {
   text-align: center;
   top: 0;
   left: 0;
   display: table; }
 
-#navBar > li {
+#navBar, #footer > li {
   width: auto;
   display: table-cell; }
 
@@ -67,18 +71,73 @@ h1, h2, h3, h4 {
   background-color: #d67d2f; }
 
 #main-body {
-  background-color: #4f5051 !important; }
+  background-color: #4f5051 !important;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 40px; }
+
+#welcome-message {
+  font-family: 'Share Tech', sans-serif;
+  font-size: 40px;
+  color: white; }
+
+#welcome-submessage {
+  font-family: 'Share Tech', sans-serif;
+  font-size: 25px;
+  color: #d1d1d1; }
 
 .bg-primary {
   background-color: #d67d2f !important; }
 
-.WORKINPROGRESS {
+#emphasize {
+  color: white;
+  font-weight: bold;
+  font-size: italic; }
+
+#footer {
+  margin-top: 7px;
+  margin-bottom: 7px;
+  font-weight: 600;
+  font-family: 'Audiowide', cursive;
+  color: white;
+  text-transform: uppercase;
+  background: #292b2d; }
+
+#footer-fill-wrapper {
+  background-color: #292b2d; }
+
+.fa {
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%; }
+
+.fa-facebook {
+  color: white; }
+
+.fa-google {
+  color: white; }
+
+.fa-linkedin {
+  color: white; }
+
+.fa-github {
+  color: white; }
+
+/*.WORKINPROGRESS {
   padding-top: 20px;
   font-family: 'Audiowide', cursive;
   font-size: 100px;
   text-align: center;
-  color: white; }
+  color: white; 
+}
 
 #wip {
   color: white;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+}*/
