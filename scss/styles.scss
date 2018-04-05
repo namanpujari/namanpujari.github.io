@@ -14,14 +14,14 @@ h1 {
 }
 
 .introduction {
-  background-image: url(../img/banner_image.jpg);
+  background-image: url(../assets/img/banner_image.jpg);
   background-repeat: repeat !important;
   text-align: center;
 }
 
 #header-image-section {
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
 }
 
 #header_name {
@@ -92,16 +92,22 @@ h1 {
   padding-right: 40px;
 }
 
-#welcome-message {
+#welcome-submessage {
   font-family: 'Share Tech', sans-serif;
-  font-size: 40px;
+  font-size: 20px;
   color: white;
 }
 
-#welcome-submessage {
+#welcome-message {
   font-family: 'Share Tech', sans-serif;
-  font-size: 25px;
-  color: #d1d1d1;
+  font-size: 30px;
+  color: white;
+}
+
+#country-names {
+  font-family: 'Share Tech', sans-serif;
+  font-size: 23px;
+  color: white;
 }
 
 .bg-primary {
@@ -109,7 +115,7 @@ h1 {
 }
 
 #emphasize {
-  color: white;
+  color: #d1d1d1;
   font-weight: bold;
   font-size: italic;
 }
@@ -139,11 +145,29 @@ h1 {
   border-radius: 50%;
 }
 
-.fa-facebook {
+.fa-facebook, .fa-google, .fa-linkedin, .fa-github {
   color: white;
 }
 
-.fa-google {
+#timeline-entry {
+  background-color: #35383a;
+  margin: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#underline {
+  color: white;
+}
+
+u {
+  color: orange;
+}
+
+
+/*.fa-google {
   color: white;
 }
 
@@ -153,7 +177,7 @@ h1 {
 
 .fa-github {
   color: white;
-}
+}*/
 
 /*.WORKINPROGRESS {
   padding-top: 20px;
